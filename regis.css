@@ -1,0 +1,85 @@
+.box-form{
+    width: 420px;
+	height: 520px;
+	background-color: #eaedef;
+	margin: 0 auto;
+	top: 20px;
+	position: relative;
+	border-radius: 5px;
+	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-direction: column;
+}
+#regis{
+    padding-top: 2%;
+}
+.form-control1{
+    margin: 0px;
+    padding: 1px;
+}
+.form-control1 input{
+    display: flex;
+    align-items: center;
+    width: 400px;
+    height: 25px;
+    color: #595f6e;
+    padding-top: 5px;
+}
+.ipos1{
+    position: absolute;
+    top: 130px;
+    right:20px;
+    visibility: hidden;
+}
+.ipos2{
+    position: absolute;
+    top: 220px;
+    right:20px;
+    visibility: hidden;
+}
+.ipos3{
+    position: absolute;
+    top: 300px;
+    right:20px;
+    visibility: hidden;
+}
+.ipos4{
+    position: absolute;
+    top: 390px;
+    right:20px;
+    visibility: hidden;
+}
+.form-control1.success input{
+    border-color: #2ecc71;
+}
+.form-control1.error input{
+    border-color: #e74c3c;
+}
+.form-control1.success i.fa-check-circle{
+    color:#2ecc71;
+    visibility: visible;
+}
+.form-control1.error i.fa-exclamation-circle{
+    color:#e74c3c;
+    visibility: visible;
+}
+
+.text-line {
+    background-color: transparent;
+    color: #0d6efd;
+    outline: none;
+    outline-style: none;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    border-bottom: solid #0d6efd 1px;
+    padding: 3px 10px;
+}
+.btn{
+    border-radius: 50px;
+    margin: 5px;
+    width: 400px;
+    height: 40px;
+}
