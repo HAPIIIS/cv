@@ -1,3 +1,7 @@
+body{
+    background: linear-gradient(-45deg, #152238, #192841, #203354, #2e4872);
+    background-size: 400% 400%;
+}
 .box-form{
     width: 420px;
 	height: 520px;
